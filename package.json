@@ -1,27 +1,28 @@
 {
-  "name": "nodeatidweaverbyalex",
+  "name": "nodeatidweaverbychris",
   "version": "0.0.1",
   "description": "Node at Idweaver By Alex",
   "main": "index.js",
   "scripts": {
-    "start": "node server.js",
+    "start": "node bin/www.js",
     "test": "mocha test/**/*.spec.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AlexandreRoba/nodeatidweaverbyalex.git"
+    "url": "git+https://github.com/WeAreBirds/nodeatidweaverbychris.git"
   },
   "author": "Alexandre Roba",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/AlexandreRoba/nodeatidweaverbyalex/issues"
+    "url": "https://github.com/WeAreBirds/nodeatidweaverbychris/issues"
   },
-  "homepage": "https://github.com/AlexandreRoba/nodeatidweaverbyalex#readme",
+  "homepage": "https://github.com/WeAreBirds/nodeatidweaverbychris#readme",
   "dependencies": {
     "express": "^4.13.4"
   },
   "devDependencies": {
     "chai": "^3.5.0",
-    "mocha": "^2.4.5"
+    "mocha": "^2.4.5",
+    "supertest": "^1.2.0"
   }
 }
